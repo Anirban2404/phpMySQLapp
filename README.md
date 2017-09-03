@@ -6,7 +6,7 @@ and deployment of high performance web applications which require a solid and re
 
 ![Alt text](https://github.com/Anirban2404/phpMySQLapp/blob/master/homePage.JPG "Screen Shot")
 
-### Need to change db connection address
+### Need to change db connection address at webserver node
 ```
 sudo sed -i -e 's/127.0.0.1/<<ip_address>>/g' /var/www/html/books/includes/bookDatabase.php 
 ```
