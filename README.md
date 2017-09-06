@@ -25,39 +25,73 @@ mysql -u <username> -p <databasename> < <filename.sql>
 ubuntu@mywebserver:/var/www/html$ tree
 .
 ├── admin_area
+
 │   ├── insertbook.php
+
 │   ├── insert_books.php
+
 │   ├── insertmovie.php
+
 │   └── insert_movies.php
+
 ├── books
+
 │   ├── functions
+
 │   │   ├── fetch.php
+
 │   │   ├── functions.php
+
 │   │   └── getbook.php
+
 │   ├── home.php
+
 │   ├── images
+
 │   │   └── background_image.jpg
+
 │   └── includes
+
 │       └── bookDatabase.php
+
 ├── homePage.JPG
+
 ├── index.php
+
 ├── movies
+
 │   ├── functions
+
 │   │   ├── fetch.php
+
 │   │   ├── functions.php
+
 │   │   └── getmovie.php
+
 │   ├── home.php
+
 │   ├── images
+
 │   │   └── background_image.jpg
+
 │   └── includes
+
 │       └── movieDatabase.php
+
 ├── mySqlDB
+
 │   ├── bookDB.sql
+
 │   └── movieDB.sql
+
 ├── README.md
+
 └── siteImages
+
     ├── books.jpg
+    
     └── movies.jpg
+    
 
 ### Need to change db connection address at webserver node
 Finally, you have to access the database from the webapplication.
